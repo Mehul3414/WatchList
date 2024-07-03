@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .container .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  
+  .container .btn:hover {
+    background: #555;
+  }
+  

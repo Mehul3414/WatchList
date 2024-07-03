@@ -1,0 +1,55 @@
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .movie-item:last-child {
+    border-bottom: none;
+  }
+  
+  .movie-item .movie-details {
+    flex-grow: 1;
+    max-width: 70%;
+  }
+  
+  .movie-item h3 {
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .movie-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .movie-item .movie-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .movie-item .btn,
+  .movie-item button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .movie-item .btn:hover,
+  .movie-item button:hover {
+    background: #555;
+  }
+  
